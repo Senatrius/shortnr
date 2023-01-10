@@ -28,6 +28,11 @@ module.exports = {
           letterSpacing: "-0.025em",
           fontWeight: 700
         }], // mobile title
+        "heading-550": ["4rem", {
+          lineHeight: "4.5rem",
+          letterSpacing: "-0.025em",
+          fontWeight: 700
+        }], // smaller desktop title
         "heading-600": ["5rem", {
           lineHeight: "5.5rem",
           letterSpacing: "-0.025em",
@@ -81,7 +86,9 @@ module.exports = {
         }]
       },
       screens: {
-        "sm": "480px"
+        "sm": "480px",
+        "xlg": "1360px",
+        "mlg": "1160px"
       }
     },
     colors: {
