@@ -79,6 +79,9 @@ module.exports = {
         "btn-300": ["1.25rem", {
           fontWeight: "700"
         }]
+      },
+      screens: {
+        "sm": "480px"
       }
     },
     colors: {
@@ -98,7 +101,6 @@ module.exports = {
       divider: "hsl(257, 19%, 36%)",
       0: "unset"
     },
-    
   },
   plugins: [],
 }
