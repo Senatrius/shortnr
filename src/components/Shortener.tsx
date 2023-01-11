@@ -1,4 +1,4 @@
-import { ChangeEvent, FormEvent, useState } from 'react';
+import { ChangeEvent, FormEvent, MouseEvent, useState } from 'react';
 
 interface IShort {
   original: string;
@@ -72,9 +72,10 @@ export const Shortener = () => {
     }
   };
 
-  const copyText = (e: any, text: string) => {
-    e.target.textContent = 'Copied!';
-    e.target.style.backgroundColor = 'hsl(260, 8%, 14%)';
+  const copyText = (e: MouseEvent<HTMLButtonElement>, text: string) => {
+    const btn = e.target as HTMLButtonElement;
+    btn.textContent = 'Copied!';
+    btn.style.backgroundColor = 'hsl(260, 8%, 14%)';
     navigator.clipboard.writeText(text);
   };
 

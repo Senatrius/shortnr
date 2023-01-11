@@ -72,7 +72,7 @@ module.exports = {
           }
         ], // footer
         'normal-200': [
-          '0.9375rem',
+          '1rem',
           {
             lineHeight: '1.6rem',
             letterSpacing: '0.005em',
