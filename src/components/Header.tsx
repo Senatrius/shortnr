@@ -4,7 +4,7 @@ export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className='relative mx-auto flex w-[87%] items-center justify-between pt-10'>
+    <header className='relative mx-auto flex w-[87%] max-w-[69.375rem] items-center justify-between pt-10'>
       <img
         src='./src/assets/logo.svg'
         alt='Shortly company logo'

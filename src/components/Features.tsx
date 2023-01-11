@@ -14,7 +14,7 @@ export const Features = () => {
           statistics dashboard.
         </p>
       </div>
-      <div className='relative mt-[5.75rem] flex flex-col md:mx-auto md:w-[87%] md:flex-row md:gap-[1.875rem]'>
+      <div className='relative mx-auto mt-[5.75rem] flex w-[87%] max-w-[69.375rem] flex-col gap-[5.75rem] md:flex-row md:gap-[1.875rem]'>
         <div className='absolute left-1/2 top-[5.75rem] h-[calc(100%-5.75rem)] w-2 -translate-x-1/2 bg-primary-100 md:top-1/2 md:h-2 md:w-full md:-translate-y-1/2'></div>
         <FeatureCard
           icon='./src/assets/icon-brand-recognition.svg'
@@ -25,13 +25,13 @@ export const Features = () => {
           icon='./src/assets/icon-detailed-records.svg'
           title='Detailed Records'
           body='Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.'
-          classes='mt-11'
+          classes='md:mt-11'
         />
         <FeatureCard
           icon='./src/assets/icon-fully-customizable.svg'
           title='Fully Customizable'
           body='Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.'
-          classes='mt-[5.5rem]'
+          classes='md:mt-[5.5rem]'
         />
       </div>
     </section>
