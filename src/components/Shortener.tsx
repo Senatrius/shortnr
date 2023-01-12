@@ -118,7 +118,7 @@ export const Shortener = () => {
       </form>
       <div
         aria-live='polite'
-        className='mx-auto flex w-[87%] flex-col'>
+        className='mx-auto flex flex-col'>
         {shortenedLinks.map((link, idx) => (
           <div
             key={idx}
