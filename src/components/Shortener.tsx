@@ -80,7 +80,7 @@ export const Shortener = () => {
   };
 
   return (
-    <div className='mx-auto w-[87%] max-w-[69.375rem] -translate-y-[5rem] md:-translate-y-[5.25rem]'>
+    <div className='mx-auto w-[87%] -translate-y-[5rem] md:-translate-y-[5.25rem] lg:w-[77%]'>
       <form
         onSubmit={shortenUrl}
         className="flex flex-col rounded-lg bg-primary-200 bg-[url('./src/assets/bg-shorten-mobile.svg')] bg-cover bg-top bg-no-repeat p-6 md:flex-row md:items-center md:justify-between md:bg-[url('./src/assets/bg-shorten-desktop.svg')] md:py-[3.25rem] md:px-16">

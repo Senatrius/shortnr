@@ -7,7 +7,7 @@ interface IFeatureCard {
 
 export const FeatureCard = ({ icon, title, body, classes }: IFeatureCard) => {
   return (
-    <div className={`relative mx-auto w-[87%] ${classes}`}>
+    <div className={`relative mx-auto w-full ${classes}`}>
       <div className='absolute -top-[2.75rem] left-1/2 flex h-[5.5rem] w-[5.5rem] -translate-x-1/2 items-center justify-center rounded-full bg-primary-200 md:left-[4.75rem]'>
         <img
           src={icon}

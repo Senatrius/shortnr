@@ -3,9 +3,9 @@ import { Shortener } from './Shortener';
 
 export const Features = () => {
   return (
-    <section className='bg-secondary-100'>
+    <section className='bg-secondary-100 pb-[7.5rem]'>
       <Shortener />
-      <div className='mx-auto w-[86%] max-w-[30rem] text-center'>
+      <div className='mx-auto w-[87%] max-w-[30rem] text-center'>
         <h2 className='mb-6 text-heading-300 text-secondary-400 md:text-heading-400'>
           Advanced Statistics
         </h2>
@@ -14,7 +14,7 @@ export const Features = () => {
           statistics dashboard.
         </p>
       </div>
-      <div className='relative mx-auto mt-[5.75rem] flex w-[87%] max-w-[69.375rem] flex-col gap-[5.75rem] md:flex-row md:gap-[1.875rem]'>
+      <div className='relative mx-auto mt-[5.75rem] flex w-[87%] flex-col gap-[5.75rem] md:flex-row md:gap-[1.875rem] lg:w-[77%] xl:gap-[2.5rem]'>
         <div className='absolute left-1/2 top-[5.75rem] h-[calc(100%-5.75rem)] w-2 -translate-x-1/2 bg-primary-100 md:top-1/2 md:h-2 md:w-full md:-translate-y-1/2'></div>
         <FeatureCard
           icon='./src/assets/icon-brand-recognition.svg'

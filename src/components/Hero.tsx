@@ -6,7 +6,7 @@ export const Hero = () => {
         src='./src/assets/illustration-working.svg'
         alt=''
       />
-      <div className='mx-[6.5%] flex flex-col items-center text-center md:items-start md:text-left'>
+      <div className='mx-[6.5%] flex flex-col items-center text-center md:mr-[2.5%] md:items-start md:text-left lg:ml-[11.5%]'>
         <h1 className='mt-10 max-w-[25rem] text-heading-500 text-secondary-400 md:mt-0 md:max-w-[40.625rem] md:text-heading-550 xlg:text-heading-600'>
           More than just shorter links
         </h1>
