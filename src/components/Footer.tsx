@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className='mx-auto flex w-[87%] flex-col items-center md:flex-row md:items-start'>
         <img
           className='brightness-0 invert md:mr-auto'
-          src='./src/assets/logo.svg'
+          src='./assets/logo.svg'
           alt='Footer shortly company logo'
         />
         <nav className='my-12 flex flex-col gap-11 text-center md:my-0 md:flex-row md:gap-[1.125rem] md:text-left'>

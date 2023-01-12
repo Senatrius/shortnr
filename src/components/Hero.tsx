@@ -3,7 +3,7 @@ export const Hero = () => {
     <section className='mt-7 mb-[9.5rem] flex flex-col items-center justify-between overflow-hidden md:mt-[4.625rem] md:mb-48 md:flex-row-reverse'>
       <img
         className='-mr-[42.5%] min-w-[132.5vw] sm:mx-auto sm:w-[87%] sm:min-w-[unset] md:-mr-[13%] md:w-[50%] mlg:-mr-[12.5%] mlg:w-[80%] mlg:max-w-[728px] xl:-mr-[15%] xl:max-w-[860px]'
-        src='./src/assets/illustration-working.svg'
+        src='./assets/illustration-working.svg'
         alt=''
       />
       <div className='mx-[6.5%] flex flex-col items-center text-center md:mr-[2.5%] md:items-start md:text-left lg:ml-[11.5%]'>

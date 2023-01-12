@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <header className='relative mx-auto flex w-[87%] items-center justify-between pt-10 lg:w-[77%]'>
       <img
-        src='./src/assets/logo.svg'
+        src='./assets/logo.svg'
         alt='Shortly company logo'
       />
       <button
